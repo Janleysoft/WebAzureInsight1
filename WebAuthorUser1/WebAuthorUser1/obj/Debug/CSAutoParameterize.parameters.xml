@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ConnectionStringName-Web.config Connection String" description="ConnectionStringName Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:janley.database.windows.net,1433;Initial Catalog=janleydb;Integrated Security=False;User Id=janley;Password=Password01@;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser1\\WebAuthorUser1\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionStringName']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser1\\WebAuthorUser1\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Excel03ConString-Web.config Connection String" description="Excel03ConString Connection String used in web.config by the application to access the database." defaultValue="Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};Extended Properties='Excel 8.0;HDR=YES'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser1\\WebAuthorUser1\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Excel03ConString']/@connectionString" />
+  </parameter>
+  <parameter name="Excel07ConString-Web.config Connection String" description="Excel07ConString Connection String used in web.config by the application to access the database." defaultValue="Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties='Excel 8.0;HDR=YES'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser1\\WebAuthorUser1\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Excel07ConString']/@connectionString" />
+  </parameter>
+  <parameter name="ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842Entities-Web.config Connection String" description="ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842Entities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.QueryMvc16.csdl|res://*/Models.QueryMvc16.ssdl|res://*/Models.QueryMvc16.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDb)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser1\\WebAuthorUser1\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842Entities']/@connectionString" />
+  </parameter>
+</parameters>

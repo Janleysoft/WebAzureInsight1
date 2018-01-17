@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <DbDacFx path="D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\AutoScripts\ASPNET_WEBAUTHORUSER1_d91045991469460d85bec9d688c52842Entities_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <IisApp path="D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\Package\PackageTmp" />
+  <setAcl path="D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
+</sitemanifest>

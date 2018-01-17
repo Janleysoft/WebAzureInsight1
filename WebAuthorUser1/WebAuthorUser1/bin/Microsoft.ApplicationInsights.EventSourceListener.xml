@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ApplicationInsights.EventSourceListener</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest">
+            <summary>
+            Represents a request to listen to specific EventSource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest"/> class.
+            </summary>
+            <remarks>
+            By default all events from an EventSource are traced. The set of events can be restricted using <see cref="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Level"/> and <see cref="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Keywords"/> properties.
+            </remarks>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Name">
+            <summary>
+            Gets or sets the name of the EventSource to listen to.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Level">
+            <summary>
+            Gets or sets the minimum level of an event that will be traced.
+            </summary>
+            <remarks>
+            Events with level lower than the specified level will be silently discarded.
+            </remarks>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Keywords">
+            <summary>
+            Gets or sets the keywords that must be set on an event to be included in tracing.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.Equals(System.Object)">
+            <summary>
+            Tests for equality.
+            </summary>
+            <param name="obj">Object to compare with.</param>
+            <returns>True if the supplied object is equal to "this", otherwise false.</returns>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceListeningRequest.GetHashCode">
+            <summary>
+            Gets the hash code for the current listening request.
+            </summary>
+            <returns>Hash code.</returns>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule">
+            <summary>
+            A module to trace data submitted via .NET framework <seealso cref="T:System.Diagnostics.Tracing.EventSource" /> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.Sources">
+            <summary>
+            Gets the list of EventSource listening requests (information about which EventSources should be traced).
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.Initialize(Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration)">
+            <summary>
+            Initializes the telemetry module and starts tracing EventSources specified via <see cref="P:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.Sources"/> property.
+            </summary>
+            <param name="configuration">Module configuration.</param>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs)">
+            <summary>
+            Processes a new EventSource event.
+            </summary>
+            <param name="eventData">Event to process.</param>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.OnEventSourceCreated(System.Diagnostics.Tracing.EventSource)">
+            <summary>
+            Processes notifications about new EventSource creation.
+            </summary>
+            <param name="eventSource">EventSource instance.</param>
+            <remarks>When an instance of an EventListener is created, it will immediately receive notifications about all EventSources already existing in the AppDomain.
+            Then, as new EventSources are created, the EventListener will receive notifications about them.</remarks>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.EventSourceTelemetryModule.EnableAsNecessary(System.Diagnostics.Tracing.EventSource)">
+            <summary>
+            Enables a single EventSource for tracing.
+            </summary>
+            <param name="eventSource">EventSource to enable.</param>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.Implementation.EventDataExtensions.Track(System.Diagnostics.Tracing.EventWrittenEventArgs,Microsoft.ApplicationInsights.TelemetryClient)">
+            <summary>
+            Creates a TraceTelemetry out of an EventSource event and tracks it using the supplied client.
+            </summary>
+            <param name="eventSourceEvent">The source for the telemetry data.</param>
+            <param name="client">Client to track the data with.</param>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.Implementation.EventDataExtensions.ExtractPayloadData(System.Diagnostics.Tracing.EventWrittenEventArgs,Microsoft.ApplicationInsights.DataContracts.TraceTelemetry)">
+            <summary>
+            Extracts payload properties from a given EventSource event and populates the telemetry properties with values found.
+            </summary>
+            <param name="eventSourceEvent">Event to extract values from.</param>
+            <param name="telemetry">Telemetry item to populate with properties.</param>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.Implementation.EventDataExtensions.AddProperty(Microsoft.ApplicationInsights.DataContracts.TraceTelemetry,System.String,System.String)">
+            <summary>
+            Adds a property to a telemetry item.
+            </summary>
+            <param name="telemetry">Telemetry item that receives a new property.</param>
+            <param name="name">Property name.</param>
+            <param name="value">Property value.</param>
+            <remarks>There is a potential of naming conflicts between standard ETW properties (like Keywords, Channel)
+            and properties that are part of EventSource event payload. Because both end up in the same ITelemetry.Properties dictionary,
+            we need some sort of conflict resolution. In this implementation we err on the side of preserving names that are part of EventSource event payload
+            because they are usually the "interesting" properties, specific to the application. If there is a conflict with standard properties,
+            we make the standard property name unique by appending a random numeric suffix.</remarks>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.Implementation.EventDataExtensions.GetChannelName(System.Diagnostics.Tracing.EventChannel)">
+            <summary>
+            Returns a string representation of an EventChannel.
+            </summary>
+            <param name="channel">The channel to get a name for.</param>
+            <returns>Name of the channel (or a numeric string, if standard name is not known).</returns>
+            <remarks>Enum.GetName() could be used but it is using reflection and because of that it is an order of magnitude less efficient.</remarks>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.EventSourceListener.Implementation.EventDataExtensions.GetOpcodeName(System.Diagnostics.Tracing.EventOpcode)">
+            <summary>
+            Returns a string representation of an operation code.
+            </summary>
+            <param name="opcode">The operation code to get a name for.</param>
+            <returns>Name of the operation code (or a numeric string, if standard name is not known).</returns>
+            <remarks>Enum.GetName() could be used but it is using reflection and because of that it is an order of magnitude less efficient.</remarks>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.TraceEvent.Shared.Implementation.EventSourceListenerEventSource">
+            <summary>
+            EventSource for reporting errors and warnings from the EventSourceListener telemetry module.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.ActivityPathDecoder">
+            <summary>
+            A class to decode ETW Activity ID GUIDs into activity paths.
+            </summary>
+            <remarks>
+            TODO: currently uses unsafe code. Will have to be refactored to safe code for partially-trusted environments like SharePoint. 
+            </remarks>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.ActivityPathDecoder.NumberListCodes">
+            <summary>
+            The encoding for a list of numbers used to make Activity  Guids.   Basically
+            we operate on nibbles (which are nice because they show up as hex digits).  The
+            list is ended with a end nibble (0) and depending on the nibble value (Below)
+            the value is either encoded into nibble itself or it can spill over into the
+            bytes that follow.   
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.ActivityPathDecoder.IsActivityPath(System.Guid,System.Int32)">
+            <summary>
+            Checks whether the passed activity GUID represents an activity path.
+            </summary>
+            /// <param name="guid">Activity GUID to check.</param>
+            <param name="processID">ID of the process.</param>        
+            <remarks>
+            You can pass a process ID of 0 to this routine and it will do the best it can, but the possibility
+            of error is significantly higher (but still under .1%).
+            </remarks>
+            <returns>True if 'guid' follow the EventSource style activity ID for the process with ID processID, otherwise false.</returns>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.ActivityPathDecoder.GetActivityPathString(System.Guid)">
+            <summary>
+            Returns a string representation for the activity path. 
+            </summary>
+            <param name="guid">Activity path to convert to string representation.</param>
+            <remarks>
+            If the GUID is not an activity path then the method returns the normal string representation for a GUID.
+            </remarks>
+            <returns>String representation for the activity path.</returns>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.ActivityPathDecoder.ActivityPathProcessID(System.Guid)">
+            <summary>
+            Extracts process ID from an activity path.
+            </summary>
+            <param name="guid">Activity GUID.</param>
+            <returns>Process ID part of the activity path.</returns>
+            <remarks>The method assumes the passed GUID is in fact and activity path.</remarks>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.StringBuilderCache">
+            <summary>
+            Provides a cached reusable instance of a StringBuilder per thread. It is an optimization that reduces the number of instances constructed and collected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.StringBuilderCache.Acquire(System.Int32)">
+            <summary>
+            Gets a string builder to use of a particular size.
+            </summary>
+            <param name="capacity">Initial capacity of the requested StringBuilder.</param>
+            <returns>An instance of a StringBuilder.</returns>
+            <remarks>
+            It can be called any number of times. If a StringBuilder is in the cache then it will be returned and the cache emptied.
+            A StringBuilder instance is cached in Thread Local Storage and so there is one per thread.
+            Subsequent calls will return a new StringBuilder. 
+            </remarks>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.StringBuilderCache.Release(System.Text.StringBuilder)">
+            <summary>
+            Place the specified builder in the cache if it is not too big. 
+            </summary>
+            <param name="sb">StringBuilder that is no longer used.</param>
+            <remarks>
+            The StringBuilder should not be used after it has been released. Unbalanced Releases are perfectly acceptable. 
+            It will merely cause the runtime to create a new StringBuilder next time Acquire is called.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.StringBuilderCache.GetStringAndRelease(System.Text.StringBuilder)">
+            <summary>
+            Gets the resulting string and releases a StringBuilder instance.
+            </summary>
+            <param name="sb">StringBuilder to be released.</param>
+            <returns>The output of the <paramref name="sb"/> StringBuilder.</returns>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.TplActivities">
+            <summary>
+            Provides well-known values for working with Task Parallel Library (TPL) EventSource.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.TplActivities.TplEventSourceGuid">
+            <summary>
+            Gets the GUID of the TPL EventSource.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.TraceEvent.Shared.Utilities.TplActivities.TaskFlowActivityIdsKeyword">
+            <summary>
+            Gets the keyword that enables hierarchical activity IDs.
+            </summary>
+        </member>
+    </members>
+</doc>

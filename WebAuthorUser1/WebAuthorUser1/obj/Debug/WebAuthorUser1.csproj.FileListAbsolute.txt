@@ -1,0 +1,237 @@
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\ApplicationInsights.config
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll.config
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.pdb
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Web.Infrastructure.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Owin.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\WebGrease.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.pdb
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.xml
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csprojResolveAssemblyReference.cache
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.CoreCompileInputs.cache
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.dll
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.pdb
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.Migrations.InitialCreate.resources
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.GenerateResource.Cache
+D:\NetProject\NETMVC\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.Migrations.studentmodel.resources
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\ApplicationInsights.config
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll.config
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.pdb
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Agent.Intercept.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Web.Infrastructure.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Owin.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\WebGrease.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.pdb
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csprojResolveAssemblyReference.cache
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.CoreCompileInputs.cache
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.pdb
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.Migrations.Initial1.resources
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.GenerateResource.Cache
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.TraceListener.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Diagnostics.DiagnosticSource.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.TraceListener.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\System.Diagnostics.DiagnosticSource.xml
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.EventSourceListener.dll
+E:\JanleyZhang\MyAzure\WebApp1\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.EventSourceListener.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\ApplicationInsights.config
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll.config
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\WebAuthorUser1.pdb
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.EventSourceListener.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.TraceListener.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Web.Infrastructure.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Owin.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\WebGrease.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.Web.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AI.WindowsServer.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.EventSourceListener.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.ApplicationInsights.TraceListener.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Helpers.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Mvc.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Optimization.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.Razor.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Deployment.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\System.Web.WebPages.Razor.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Antlr3.Runtime.pdb
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Newtonsoft.Json.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\EntityFramework.SqlServer.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Google.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csprojResolveAssemblyReference.cache
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.CoreCompileInputs.cache
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.pdb
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.dll
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.pdb
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.xml
