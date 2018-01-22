@@ -18,7 +18,7 @@ namespace WebAuthorUser1.Processor
             int code;
             bool parsed = Int32.TryParse(requestTelemetry.ResponseCode, out code);
             if (!parsed) return;
-            if (code >= 400 )
+            if (code >= 400 &&code<500)
             {
                 // If we set the Success property, the SDK won't change it:
                 requestTelemetry.Success = true;

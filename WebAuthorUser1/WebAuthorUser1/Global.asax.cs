@@ -24,17 +24,17 @@ namespace WebAuthorUser1
             // TelemetryConfiguration.Active.TelemetryChannel.DeveloperMode = true;
 
             //Telemetry Processor
-            var builder = TelemetryConfiguration.Active.TelemetryProcessorChainBuilder;
-            builder.Use((next) => new SuccessfulDependencyFilter(next));
+           // var builder = TelemetryConfiguration.Active.TelemetryProcessorChainBuilder;
+           // builder.Use((next) => new SuccessfulDependencyFilter(next));
             // If you have more processors:
            // builder.Use((next) => new AnotherProcessor(next));
-            builder.Build();
+           // builder.Build();
 
             //Telemetry Initializers                                                                                          
-            // TelemetryConfiguration.Active.TelemetryInitializers
-            //.Add(new MyTelemetryInitializer());
-            TelemetryConfiguration.Active.TelemetryInitializers.Clear();
-
+            TelemetryConfiguration.Active.TelemetryInitializers
+            .Add(new MyTelemetryInitializer());
+          //  TelemetryConfiguration.Active.TelemetryInitializers.Clear();
+         
         }
     }
 }

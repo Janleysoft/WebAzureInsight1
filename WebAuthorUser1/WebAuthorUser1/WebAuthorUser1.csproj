@@ -217,11 +217,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801220815072_EventData.cs" />
+    <Compile Include="Migrations\201801220815072_EventData.Designer.cs">
+      <DependentUpon>201801220815072_EventData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ContactModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\InsightAPI.cs" />
+    <Compile Include="Models\InsightEventData.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\QueryMVC16.cs" />
     <Compile Include="Processor\MyTelemetryInitializer.cs" />
@@ -241,6 +247,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Connected Services\Application Insights\ConnectedService.json" />
     <None Include="Properties\PublishProfiles\WebAzureFrameworkJanley1 - Web Deploy.pubxml" />
@@ -304,6 +311,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Uploads\" />
+    <Folder Include="Views\Telemetry\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -323,6 +331,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801220815072_EventData.resx">
+      <DependentUpon>201801220815072_EventData.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -235,3 +235,5 @@ D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUs
 D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.dll
 D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.pdb
 D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\bin\Metrics.xml
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.Migrations.EventData.resources
+D:\Janley Zhang\AzureProject\WebAuthorUser1\WebAuthorUser1\obj\Debug\WebAuthorUser1.csproj.GenerateResource.Cache

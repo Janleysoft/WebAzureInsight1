@@ -9,7 +9,7 @@ namespace WebAuthorUser1.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(WebAuthorUser1.Models.ApplicationDbContext context)

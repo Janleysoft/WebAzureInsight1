@@ -27,6 +27,7 @@ namespace WebAuthorUser1.Models
         //add students
         public DbSet<Student> Students { get; set; }
         public DbSet<QueryMVC16> QueryMVC16s { get; set; }
+        public DbSet<InsightEventData> InsightEventDatas { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
