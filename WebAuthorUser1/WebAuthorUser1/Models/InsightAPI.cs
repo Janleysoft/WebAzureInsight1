@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -32,17 +33,54 @@ namespace WebAuthorUser1.Models
                 return response.ReasonPhrase;
             }
         }
-        //send email 
+        //send alert email :warning
         public static string DurationEmail(string appName, int totalDuration)
         {
             MailMessage m = new MailMessage();
             SmtpClient sc = new SmtpClient();
-            string emailStatus = "Send an Email successfully.";
+            string emailStatus = "Send an Email successfully. Warning!";
+            string bodyMessage = null;
+            var password= ConfigurationManager.AppSettings["MyPassword"];
+            var address= ConfigurationManager.AppSettings["gmailAddress"];
+            try
+            {
+                bodyMessage = "Hi Peter, <br><br>"
+                                            + "Warning! The request which the total processing duration over 800ms: <br><br>"
+                                            + "appName:" + appName + " <br><br>"
+                                            + "total processing Duration: " + totalDuration + " <br><br>"
+                                            + "Best regards,<br><br>"
+                                            + "Janley";
+                //send Email
+                m.From = new MailAddress(address, "Janley Zhang");
+                MailAddress to = new MailAddress("janleysoft@outlook.com", "Janley Zhang");
+                m.To.Add(to);
+                //similarly BCC
+                m.Subject = "The request Test from Application Insight"; m.IsBodyHtml = true; m.Body = bodyMessage;
+                sc.Host = "smtp.gmail.com";
+                sc.Port = 587;
+                sc.UseDefaultCredentials = false;
+                sc.Credentials = new System.Net.NetworkCredential(address, password);
+                sc.EnableSsl = true;
+                sc.Send(m);              
+            }
+            catch (Exception ex)
+            {
+                emailStatus = ex.Message;
+            }
+            return emailStatus;
+        }
+
+        public static string SuccessEmail(string appName, int totalDuration)
+        {
+            string password = ConfigurationManager.AppSettings["MyPassword"];
+            MailMessage m = new MailMessage();
+            SmtpClient sc = new SmtpClient();
+            string emailStatus = "Send an Email successfully. Succeed!";
             string bodyMessage = null;
             try
             {
                 bodyMessage = "Hi Peter, <br><br>"
-                                            + "The request which the total processing duration over 800ms: <br><br>"
+                                            + "Succeed! The request which the total processing duration less 1000ms: <br><br>"
                                             + "appName:" + appName + " <br><br>"
                                             + "total processing Duration: " + totalDuration + " <br><br>"
                                             + "Best regards,<br><br>"
@@ -56,9 +94,9 @@ namespace WebAuthorUser1.Models
                 sc.Host = "smtp.gmail.com";
                 sc.Port = 587;
                 sc.UseDefaultCredentials = false;
-                sc.Credentials = new System.Net.NetworkCredential("janleysoft@gmail.com", "031351203636TF");
+                sc.Credentials = new System.Net.NetworkCredential("janleysoft@gmail.com", password);
                 sc.EnableSsl = true;
-                sc.Send(m);              
+                sc.Send(m);
             }
             catch (Exception ex)
             {
@@ -66,6 +104,5 @@ namespace WebAuthorUser1.Models
             }
             return emailStatus;
         }
-
     }
 }

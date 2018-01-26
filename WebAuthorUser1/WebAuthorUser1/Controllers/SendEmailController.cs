@@ -44,6 +44,11 @@ namespace WebAuthorUser1.Controllers
                string emailStatus= InsightAPI.DurationEmail(appName, totalProcessingDuration);
                 ViewBag.emailStatus = emailStatus;
             }
+            else if(totalProcessingDuration>0&&totalProcessingDuration<=1000)
+            {
+                string emailStatus = InsightAPI.SuccessEmail(appName, totalProcessingDuration);
+                ViewBag.emailStatus = emailStatus;
+            }
             return View();
 }
     }

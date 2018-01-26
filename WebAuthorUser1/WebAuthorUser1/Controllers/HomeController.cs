@@ -1,4 +1,6 @@
-﻿using Microsoft.ApplicationInsights.DataContracts;
+﻿using Microsoft.ApplicationInsights;
+using Microsoft.ApplicationInsights.DataContracts;
+using Microsoft.ApplicationInsights.Extensibility;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -10,6 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.Mvc;
 using WebAuthorUser1.Models;
 
@@ -18,7 +21,7 @@ namespace WebAuthorUser1.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
+        {           
             var telemetry = new Microsoft.ApplicationInsights.TelemetryClient();
             telemetry.TrackTrace("Home/Index Main");
             return View();
@@ -27,14 +30,16 @@ namespace WebAuthorUser1.Controllers
         {
             var telemetry = new Microsoft.ApplicationInsights.TelemetryClient();
             telemetry.Context.Operation.Name = "MyOperationName1";
-            var dependency = new DependencyTelemetry();
-            var startTime = DateTime.UtcNow;
-            var timer = System.Diagnostics.Stopwatch.StartNew();
-            timer.Stop();
-            TimeSpan ts = new TimeSpan(0,0,5);
-                        telemetry.TrackDependency("testDependency", "baseTest1", "testDependency", "remoteTest1", startTime, ts, "201", false);          
+            telemetry.TrackTrace("database response",
+               SeverityLevel.Warning,
+               new Dictionary<string, string> { { "database", "myName" } });
             return View();
         }
+        //[HttpPost]
+        //public ActionResult MyJson(Student student)
+        //{
+        //    return Json(student);
+        //}
         [Authorize]
         public ActionResult ExcelTest()
         {
@@ -125,10 +130,12 @@ namespace WebAuthorUser1.Controllers
     public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            var r = new Random();
+            ViewBag.status = "About Exception";
+                var r = new Random();
             if (r.Next() % 3 == 0)
             {
-                Trace.TraceInformation("Home/About Error");
+                // Trace.TraceInformation("Home/About Error");
+                ViewBag.status = "get error";
                 var c = new AboutModels();
                 c.saySomething();
             }
@@ -138,9 +145,11 @@ namespace WebAuthorUser1.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+            ViewBag.status = "Contact Exception";
             var r = new Random();
             if (r.Next() % 2 == 0)
-            {             
+            {
+                ViewBag.status = "get error";
                 var c = new ContactModels();
                 c.doSomething();
             }

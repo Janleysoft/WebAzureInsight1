@@ -217,9 +217,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201801220815072_EventData.cs" />
-    <Compile Include="Migrations\201801220815072_EventData.Designer.cs">
-      <DependentUpon>201801220815072_EventData.cs</DependentUpon>
+    <Compile Include="Migrations\201801230555086_Initial.cs" />
+    <Compile Include="Migrations\201801230555086_Initial.Designer.cs">
+      <DependentUpon>201801230555086_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutModels.cs" />
@@ -333,8 +333,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201801220815072_EventData.resx">
-      <DependentUpon>201801220815072_EventData.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801230555086_Initial.resx">
+      <DependentUpon>201801230555086_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

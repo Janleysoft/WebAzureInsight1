@@ -19,16 +19,16 @@ namespace WebAuthorUser1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ControllerBuilder.Current.DefaultNamespaces.Add("WebAuthorUser1.Controllers");//set default namespace
-            
+
             //Developer mode
             // TelemetryConfiguration.Active.TelemetryChannel.DeveloperMode = true;
 
             //Telemetry Processor
-           // var builder = TelemetryConfiguration.Active.TelemetryProcessorChainBuilder;
-           // builder.Use((next) => new SuccessfulDependencyFilter(next));
-            // If you have more processors:
+            var builder = TelemetryConfiguration.Active.TelemetryProcessorChainBuilder;
+            builder.Use((next) => new SuccessfulDependencyFilter(next));
+            //If you have more processors:
            // builder.Use((next) => new AnotherProcessor(next));
-           // builder.Build();
+            builder.Build();
 
             //Telemetry Initializers                                                                                          
             TelemetryConfiguration.Active.TelemetryInitializers

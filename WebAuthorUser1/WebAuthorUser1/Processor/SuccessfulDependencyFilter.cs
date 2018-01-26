@@ -22,21 +22,13 @@ namespace WebAuthorUser1.Processor
         }
         public void Process(ITelemetry item)
         {
-            // To filter out an item, just return
-            if (!OKtoSend(item)) { return; }
-            // Modify the item if required
-            ModifyItem(item);
+            var request = item as DependencyTelemetry;
 
+            if (request != null && request.Duration.TotalMilliseconds < 200)
+            {
+                return;
+            }
             this.Next.Process(item);
-        }
-
-        // Example: replace with your own criteria.
-        private bool OKtoSend(ITelemetry item)
-        {
-            var dependency = item as DependencyTelemetry;
-            if (dependency == null) return true;
-
-            return dependency.Success != true;
         }
 
         // Example: replace with your own modifiers.
