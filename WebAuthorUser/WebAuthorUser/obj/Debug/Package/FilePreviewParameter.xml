@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebAzureFrameworkJanley1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser\\WebAuthorUser\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser\\WebAuthorUser\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:janley.database.windows.net,1433;Initial Catalog=janleydb;Integrated Security=False;User ID=janley;Password=Password01@;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser\\WebAuthorUser\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ConnectionStringName-Web.config Connection String" description="" value="Data Source=tcp:janley.database.windows.net,1433;Initial Catalog=janleydb;Integrated Security=False;User ID=janley;Password=Password01@;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Janley\ Zhang\\AzureProject\\WebAuthorUser\\WebAuthorUser\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionStringName']/@connectionString" />
+  </parameter>
+</parameters>

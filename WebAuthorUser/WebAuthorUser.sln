@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuthorUser", "WebAuthorUser\WebAuthorUser.csproj", "{B7E34C47-5011-42F2-A0F7-47E0E3052CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJobEmail1", "WebJobEmail1\WebJobEmail1.csproj", "{B4CC4A79-C25F-4269-9C18-0E8313A3BC90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E34C47-5011-42F2-A0F7-47E0E3052CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E34C47-5011-42F2-A0F7-47E0E3052CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E34C47-5011-42F2-A0F7-47E0E3052CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E34C47-5011-42F2-A0F7-47E0E3052CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CC4A79-C25F-4269-9C18-0E8313A3BC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CC4A79-C25F-4269-9C18-0E8313A3BC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CC4A79-C25F-4269-9C18-0E8313A3BC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CC4A79-C25F-4269-9C18-0E8313A3BC90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9F184AD-75EA-42CF-9FBA-0D3CAE83D833}
+	EndGlobalSection
+EndGlobal
